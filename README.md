@@ -15,7 +15,7 @@ apt install wireguard
 
 ### Fedora 
 ```
-apt install wireguard-tools
+dnf -y install wireguard-tools
 ```
 
 * criar o arquivo wg0.conf em /etc/wireguard/
