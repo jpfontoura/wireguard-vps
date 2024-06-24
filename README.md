@@ -11,18 +11,24 @@ Dependendo da sua versão de SO
 ### Debian
 ``` 
 apt install wireguard
- ```
+```
 
 ### Fedora 
+```
 apt install wireguard-tools
+```
 
 * criar o arquivo wg0.conf em /etc/wireguard/
 
 ### START
-* comando para levantar o serviço para teste wg-quick up wg0
-### STOP
+```
+wg-quick up wg0
+```
 
-* comando para parar o serviço wg-quick down wg0
+### STOP
+```
+wg-quick down wg0
+```
 ### Private Key 
 wg genkey
 * comando parar criar a chave publica wg pubkey
