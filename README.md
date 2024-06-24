@@ -9,7 +9,9 @@ Então os clientes se conectam na VPS com wireguard server, e um cliente funcion
 ## Instalação wireguard server
 Dependendo da sua versão de SO
 ### Debian
-``` apt install wireguard ```
+``` 
+apt install wireguard
+ ```
 
 ### Fedora 
 apt install wireguard-tools
@@ -24,3 +26,6 @@ apt install wireguard-tools
 ### Private Key 
 wg genkey
 * comando parar criar a chave publica wg pubkey
+
+
+
