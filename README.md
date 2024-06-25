@@ -33,5 +33,10 @@ wg-quick down wg0
 wg genkey
 * comando parar criar a chave publica wg pubkey
 
+### Check Status
+```
+wg show
+```
+
 
 
