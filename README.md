@@ -38,5 +38,11 @@ wg genkey
 wg show
 ```
 
+### Habilitando na inicialização do sistema
+```
+systemctl enable wg-quick@wg0
+```
+
+
 
 
